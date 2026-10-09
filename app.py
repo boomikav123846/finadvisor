@@ -217,7 +217,7 @@ Write a helpful response to the user's latest question.
         with st.spinner("Your AI advisor is thinking..."):
             try:
                 response = client.models.generate_content(
-                    model="gemini-flash-latest",
+                    model="gemini-3.5-flash",
                     contents=prompt
                 )
 
